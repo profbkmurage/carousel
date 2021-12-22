@@ -1,0 +1,26 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+html,body{display: grid; height: 100%; place-items: center; text-align: center;background: #fff;}
+
+.slider{max-width: 72rem; display: flex; }
+
+.slider .card{background: #084103; flex: 1; margin: 0 0.7rem;}
+
+.slider .card .img{height: 12.5rem; width: 100%;}
+
+.slider .card .img img{height: 100%; width: 100%; object-fit: cover;}
+
+.slider .card .content{padding: 0.7rem 1.4rem; }
+
+.slider .card .content .title{font-size: 1.6rem; font-weight: 600; color: rgb(105, 101, 101);}
+
+.slider .card .content .sub-title{font-size: 1.2rem; font-weight: 600; color: rgb(206, 200, 130); line-height: 1.2rem;}
+
+.slider .card .content .p{text-align: justify; margin: 00.7rem; }
+
+.slider .card .content .bttnn{display: block; text-align: left; margin: 0.7rem 0;}
+
+.slider .card .content .bttnn button{background: lightgreen; color: red; border: none; outline: none; font-size: 1rem; padding: 5px 0.5rem; cursor: pointer; transition: 0.2s;}
+
+.slider .card .content .bttnn button:hover{transform: scale(0.9);}
